@@ -76,7 +76,7 @@ export const createTypesFile = async (object: any) => {
           ),
         ]),
       ),
-      ts.factory.createStringLiteral('nestjs-i18n'),
+      ts.factory.createStringLiteral('@hkjeffchan/nestjs-i18n'),
       undefined,
     ),
     i18nTranslationsType,
