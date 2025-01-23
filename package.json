@@ -1,6 +1,6 @@
 {
   "name": "@hkjeffchan/nestjs-i18n",
-  "version": "11.0.0",
+  "version": "11.1.0",
   "homepage": "https://nestjs-i18n.com",
   "description": "The i18n module for Nest.",
   "author": "Toon van Strijp",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ToonvanStrijp/nestjs-i18n"
+    "url": "https://github.com/hkjeffchan/nestjs-i18n"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -117,10 +117,10 @@
     "string-format": "^2.0.0"
   },
   "peerDependencies": {
-    "@nestjs/common": "*",
-    "@nestjs/core": "*",
-    "class-validator": "*",
-    "rxjs": "*"
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "class-validator": "^0.14.0",
+    "rxjs": "^7.8.0"
   },
   "browserslist": {
     "production": [
